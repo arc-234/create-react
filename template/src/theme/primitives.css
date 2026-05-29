@@ -1,0 +1,9 @@
+@theme {
+	--color-ds-bg-primary: #000000;
+	--color-ds-fg-primary: #ffffff;
+}
+
+:root {
+	--ds-color-bg-primary: var(--color-ds-bg-primary);
+	--ds-color-fg-primary: var(--color-ds-fg-primary);
+}

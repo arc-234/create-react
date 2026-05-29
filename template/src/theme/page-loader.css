@@ -1,0 +1,13 @@
+@theme {
+	--animate-page-loader: page-loader-indeterminate 1.15s
+		cubic-bezier(0.4, 0, 0.2, 1) infinite;
+
+	@keyframes page-loader-indeterminate {
+		0% {
+			left: -32%;
+		}
+		100% {
+			left: 100%;
+		}
+	}
+}

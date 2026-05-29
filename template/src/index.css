@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "./theme/typography.css";
+@import "./theme/primitives.css";
+@import "./theme/page-loader.css";
+
+:root {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-synthesis: none;
+	color: var(--color-ds-fg-primary);
+	color-scheme: dark light;
+	background: var(--color-ds-bg-primary);
+	text-rendering: optimizeLegibility;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+* {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
